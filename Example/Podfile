@@ -1,0 +1,11 @@
+platform :ios, '6.0'
+
+target 'AFNetworking Webp' do
+pod "AFNetworking", "~> 2.0"
+pod 'iOS-WebP', '~> 0.4'
+end
+
+target 'AFNetworking WebpTests' do
+
+end
+

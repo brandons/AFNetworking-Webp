@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		51944D7621C2AAB117DA0C76 /* libPods-AFNetworking Webp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C04DF419BBFE002A00237F6A /* libPods-AFNetworking Webp.a */; };
 		CA130DC21B0CCD5000536EE2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CA130DC11B0CCD5000536EE2 /* main.m */; };
 		CA130DC51B0CCD5000536EE2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CA130DC41B0CCD5000536EE2 /* AppDelegate.m */; };
 		CA130DC81B0CCD5000536EE2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA130DC71B0CCD5000536EE2 /* ViewController.m */; };
@@ -14,6 +15,7 @@
 		CA130DCD1B0CCD5000536EE2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA130DCC1B0CCD5000536EE2 /* Images.xcassets */; };
 		CA130DD01B0CCD5000536EE2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA130DCE1B0CCD5000536EE2 /* LaunchScreen.xib */; };
 		CA130DDC1B0CCD5000536EE2 /* AFNetworking_WebpTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA130DDB1B0CCD5000536EE2 /* AFNetworking_WebpTests.m */; };
+		CA130DEA1B0CE9E200536EE2 /* AFWebPImageResponseSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = CA130DE91B0CE9E200536EE2 /* AFWebPImageResponseSerializer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +29,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B16E6A458F78C7487DC7C957 /* Pods-AFNetworking Webp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AFNetworking Webp.release.xcconfig"; path = "Pods/Target Support Files/Pods-AFNetworking Webp/Pods-AFNetworking Webp.release.xcconfig"; sourceTree = "<group>"; };
+		C04DF419BBFE002A00237F6A /* libPods-AFNetworking Webp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AFNetworking Webp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA130DBC1B0CCD5000536EE2 /* AFNetworking Webp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AFNetworking Webp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA130DC01B0CCD5000536EE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CA130DC11B0CCD5000536EE2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +44,9 @@
 		CA130DD51B0CCD5000536EE2 /* AFNetworking WebpTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AFNetworking WebpTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA130DDA1B0CCD5000536EE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CA130DDB1B0CCD5000536EE2 /* AFNetworking_WebpTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFNetworking_WebpTests.m; sourceTree = "<group>"; };
+		CA130DE81B0CE9E200536EE2 /* AFWebPImageResponseSerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFWebPImageResponseSerializer.h; path = "../../AFNetworking Webp/AFWebPImageResponseSerializer.h"; sourceTree = "<group>"; };
+		CA130DE91B0CE9E200536EE2 /* AFWebPImageResponseSerializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFWebPImageResponseSerializer.m; path = "../../AFNetworking Webp/AFWebPImageResponseSerializer.m"; sourceTree = "<group>"; };
+		DE6B6D973E84FEAA9069502E /* Pods-AFNetworking Webp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AFNetworking Webp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AFNetworking Webp/Pods-AFNetworking Webp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51944D7621C2AAB117DA0C76 /* libPods-AFNetworking Webp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +74,8 @@
 				CA130DBE1B0CCD5000536EE2 /* AFNetworking Webp */,
 				CA130DD81B0CCD5000536EE2 /* AFNetworking WebpTests */,
 				CA130DBD1B0CCD5000536EE2 /* Products */,
+				CA845306EC0928C865801C47 /* Pods */,
+				F51D6CC6BB0A7E1E1B56575F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -89,6 +99,8 @@
 				CA130DCC1B0CCD5000536EE2 /* Images.xcassets */,
 				CA130DCE1B0CCD5000536EE2 /* LaunchScreen.xib */,
 				CA130DBF1B0CCD5000536EE2 /* Supporting Files */,
+				CA130DE81B0CE9E200536EE2 /* AFWebPImageResponseSerializer.h */,
+				CA130DE91B0CE9E200536EE2 /* AFWebPImageResponseSerializer.m */,
 			);
 			path = "AFNetworking Webp";
 			sourceTree = "<group>";
@@ -119,6 +131,23 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		CA845306EC0928C865801C47 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DE6B6D973E84FEAA9069502E /* Pods-AFNetworking Webp.debug.xcconfig */,
+				B16E6A458F78C7487DC7C957 /* Pods-AFNetworking Webp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F51D6CC6BB0A7E1E1B56575F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C04DF419BBFE002A00237F6A /* libPods-AFNetworking Webp.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,9 +155,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CA130DDF1B0CCD5000536EE2 /* Build configuration list for PBXNativeTarget "AFNetworking Webp" */;
 			buildPhases = (
+				DDCF36863E782CAFC4770694 /* Check Pods Manifest.lock */,
 				CA130DB81B0CCD5000536EE2 /* Sources */,
 				CA130DB91B0CCD5000536EE2 /* Frameworks */,
 				CA130DBA1B0CCD5000536EE2 /* Resources */,
+				35A76A5652375C375651EF94 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -214,6 +245,39 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		35A76A5652375C375651EF94 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AFNetworking Webp/Pods-AFNetworking Webp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DDCF36863E782CAFC4770694 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CA130DB81B0CCD5000536EE2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -222,6 +286,7 @@
 				CA130DC81B0CCD5000536EE2 /* ViewController.m in Sources */,
 				CA130DC51B0CCD5000536EE2 /* AppDelegate.m in Sources */,
 				CA130DC21B0CCD5000536EE2 /* main.m in Sources */,
+				CA130DEA1B0CE9E200536EE2 /* AFWebPImageResponseSerializer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,6 +412,7 @@
 		};
 		CA130DE01B0CCD5000536EE2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE6B6D973E84FEAA9069502E /* Pods-AFNetworking Webp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "AFNetworking Webp/Info.plist";
@@ -357,6 +423,7 @@
 		};
 		CA130DE11B0CCD5000536EE2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B16E6A458F78C7487DC7C957 /* Pods-AFNetworking Webp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "AFNetworking Webp/Info.plist";
@@ -418,6 +485,7 @@
 				CA130DE11B0CCD5000536EE2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CA130DE21B0CCD5000536EE2 /* Build configuration list for PBXNativeTarget "AFNetworking WebpTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +494,7 @@
 				CA130DE41B0CCD5000536EE2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
