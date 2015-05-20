@@ -1,5 +1,5 @@
 //
-//  AFWebPImageResponseSerializer.h
+//  AFImageResponseSerializer+Webp.h
 //  AFNetworking Webp
 //
 //  Created by Brandon on 5/20/15.
@@ -8,6 +8,6 @@
 
 #import "AFURLResponseSerialization.h"
 
-@interface AFWebPImageResponseSerializer : AFImageResponseSerializer
+@interface AFImageResponseSerializer (Webp)
 
 @end

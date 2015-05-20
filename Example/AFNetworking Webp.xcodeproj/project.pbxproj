@@ -15,7 +15,7 @@
 		CA130DCD1B0CCD5000536EE2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA130DCC1B0CCD5000536EE2 /* Images.xcassets */; };
 		CA130DD01B0CCD5000536EE2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA130DCE1B0CCD5000536EE2 /* LaunchScreen.xib */; };
 		CA130DDC1B0CCD5000536EE2 /* AFNetworking_WebpTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA130DDB1B0CCD5000536EE2 /* AFNetworking_WebpTests.m */; };
-		CA130DEA1B0CE9E200536EE2 /* AFWebPImageResponseSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = CA130DE91B0CE9E200536EE2 /* AFWebPImageResponseSerializer.m */; };
+		CA758A811B0D177900AF5B51 /* AFImageResponseSerializer+Webp.m in Sources */ = {isa = PBXBuildFile; fileRef = CA758A801B0D177900AF5B51 /* AFImageResponseSerializer+Webp.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,8 +44,8 @@
 		CA130DD51B0CCD5000536EE2 /* AFNetworking WebpTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AFNetworking WebpTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA130DDA1B0CCD5000536EE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CA130DDB1B0CCD5000536EE2 /* AFNetworking_WebpTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFNetworking_WebpTests.m; sourceTree = "<group>"; };
-		CA130DE81B0CE9E200536EE2 /* AFWebPImageResponseSerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFWebPImageResponseSerializer.h; path = "../../AFNetworking-Webp/AFWebPImageResponseSerializer.h"; sourceTree = "<group>"; };
-		CA130DE91B0CE9E200536EE2 /* AFWebPImageResponseSerializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFWebPImageResponseSerializer.m; path = "../../AFNetworking-Webp/AFWebPImageResponseSerializer.m"; sourceTree = "<group>"; };
+		CA758A7F1B0D177900AF5B51 /* AFImageResponseSerializer+Webp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "AFImageResponseSerializer+Webp.h"; path = "../../AFNetworking-Webp/AFImageResponseSerializer+Webp.h"; sourceTree = "<group>"; };
+		CA758A801B0D177900AF5B51 /* AFImageResponseSerializer+Webp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "AFImageResponseSerializer+Webp.m"; path = "../../AFNetworking-Webp/AFImageResponseSerializer+Webp.m"; sourceTree = "<group>"; };
 		DE6B6D973E84FEAA9069502E /* Pods-AFNetworking Webp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AFNetworking Webp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AFNetworking Webp/Pods-AFNetworking Webp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -99,8 +99,8 @@
 				CA130DCC1B0CCD5000536EE2 /* Images.xcassets */,
 				CA130DCE1B0CCD5000536EE2 /* LaunchScreen.xib */,
 				CA130DBF1B0CCD5000536EE2 /* Supporting Files */,
-				CA130DE81B0CE9E200536EE2 /* AFWebPImageResponseSerializer.h */,
-				CA130DE91B0CE9E200536EE2 /* AFWebPImageResponseSerializer.m */,
+				CA758A7F1B0D177900AF5B51 /* AFImageResponseSerializer+Webp.h */,
+				CA758A801B0D177900AF5B51 /* AFImageResponseSerializer+Webp.m */,
 			);
 			path = "AFNetworking Webp";
 			sourceTree = "<group>";
@@ -286,7 +286,7 @@
 				CA130DC81B0CCD5000536EE2 /* ViewController.m in Sources */,
 				CA130DC51B0CCD5000536EE2 /* AppDelegate.m in Sources */,
 				CA130DC21B0CCD5000536EE2 /* main.m in Sources */,
-				CA130DEA1B0CE9E200536EE2 /* AFWebPImageResponseSerializer.m in Sources */,
+				CA758A811B0D177900AF5B51 /* AFImageResponseSerializer+Webp.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

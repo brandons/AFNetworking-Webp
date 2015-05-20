@@ -7,7 +7,6 @@
 //
 
 #import "ViewController.h"
-#import "AFWebPImageResponseSerializer.h"
 #import <AFNetworking/UIImageView+AFNetworking.h>
 
 @interface ViewController ()
@@ -20,9 +19,6 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    AFWebPImageResponseSerializer *imageSerializer = [[AFWebPImageResponseSerializer alloc] init];
-    self.imageView.imageResponseSerializer = imageSerializer;
-    
     [self.imageView setImageWithURL:[NSURL URLWithString:@"http://res.cloudinary.com/yerdle/image/upload/v1432133403/lhfer5lguvi76a9uedez.webp"] placeholderImage:nil];
 }
 
